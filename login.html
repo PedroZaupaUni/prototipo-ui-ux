@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Protótipo estático de app de delivery - login.">
+  <title>Protótipo UI UX - Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="login" class="auth-page">
+  <div class="app-shell app-shell--auth">
+    <main class="auth-layout">
+      <section class="auth-hero">
+        <span class="demo-badge">Tela demonstrativa</span>
+        <div class="auth-hero__icon" aria-hidden="true">U</div>
+        <h1>Entrar</h1>
+        <p class="text-muted auth-hero__text">
+          Acesse o protótipo para visualizar a jornada completa do app de delivery.
+        </p>
+      </section>
+
+      <section class="auth-card" aria-labelledby="login-title">
+        <div class="section-head section-head--auth">
+          <div>
+            <p class="eyebrow">Bem-vindo</p>
+            <h2 id="login-title">Faça seu login</h2>
+          </div>
+          <a class="text-action" href="index.html">Pular</a>
+        </div>
+
+        <form class="auth-form">
+          <label class="form-field">
+            <span>E-mail</span>
+            <input class="input-control" type="email" placeholder="voce@exemplo.com" aria-label="E-mail">
+          </label>
+
+          <label class="form-field">
+            <span>Senha</span>
+            <input class="input-control" type="password" placeholder="Digite sua senha" aria-label="Senha">
+          </label>
+
+          <div class="auth-row">
+            <label class="check-line">
+              <input type="checkbox">
+              <span>Lembrar de mim</span>
+            </label>
+            <button class="text-action" type="button">Esqueci a senha</button>
+          </div>
+
+          <a class="button-primary button-primary--full" href="index.html">Entrar</a>
+          <button class="button-secondary" type="button">Criar conta</button>
+        </form>
+      </section>
+
+      <section class="auth-card auth-card--soft">
+        <h2 class="auth-card__title">Fluxo desta apresentação</h2>
+        <ol class="auth-steps">
+          <li>Login demonstrativo</li>
+          <li>Home com restaurantes e categorias</li>
+          <li>Tela de produto</li>
+          <li>Carrinho com resumo do pedido</li>
+        </ol>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

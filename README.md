@@ -4,6 +4,7 @@ Projeto front-end estático, mobile-first, inspirado em um fluxo simples de app 
 
 ## O que está incluído
 
+- `login.html` — tela demonstrativa de login
 - `index.html` — tela Home
 - `produto.html` — tela de detalhe do restaurante/produto
 - `carrinho.html` — tela de checkout/carrinho
@@ -29,11 +30,18 @@ Projeto front-end estático, mobile-first, inspirado em um fluxo simples de app 
 3. Acesse no navegador:
 
 ```bash
+http://localhost/prototipo-ui-ux/login.html
+```
+
+Se preferir abrir direto a Home:
+
+```bash
 http://localhost/prototipo-ui-ux/
 ```
 
 ## Fluxo funcional
 
+- Login apresenta o início do fluxo com formulário visual não funcional.
 - Home renderiza restaurantes, categorias, recentes e cards de destaque.
 - Produto lista sabores com botão de adicionar.
 - Carrinho usa `localStorage` para manter os itens entre as páginas.
@@ -59,6 +67,7 @@ bash scripts/init-repo.sh
 
 ## Checklist de revisão
 
+- [x] Login criado
 - [x] Home criada
 - [x] Produto criado
 - [x] Carrinho criado
